@@ -7,10 +7,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
-public class Fruit extends PanacheEntityBase {
-    @Id
-    @GeneratedValue
-    private Long id;
+public class Fruit extends PanacheEntity {
+    // @Id
+    // @GeneratedValue
+    // private Long id;
 
     public String name;
     public String description;
